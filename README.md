@@ -6,8 +6,8 @@ the [Exercism Elixir Scrabble Score problem][] using [Benchee][].
 ## Install
 
 ```sh
-git clone git@github.com:paulfioravanti/scrabble_benchmark.git
-cd scrabble_benchmark
+git clone git@github.com:paulfioravanti/exercism_scrabble_benchmark.git
+cd exercism_scrabble_benchmark
 mix deps.get
 ```
 
