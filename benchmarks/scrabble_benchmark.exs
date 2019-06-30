@@ -19,6 +19,7 @@ Benchee.run(
       Scrabble.Iteration6.score(input)
     end
   },
+  # These inputs closely match the values used in the exercise tests.
   inputs: %{
     "empty" => "",
     "whitespace" => " \t\n",
@@ -37,6 +38,9 @@ Benchee.run(
     fast_warning: true
   ],
   formatters: [
+    # NOTE: HTML formatter disabled by default here due to what seem like
+    # rendering issues. More info at:
+    # https://github.com/bencheeorg/benchee_html/issues/3
     # Benchee.Formatters.HTML,
     Benchee.Formatters.Console
   ],
